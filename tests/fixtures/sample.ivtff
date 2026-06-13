@@ -1,0 +1,15 @@
+#=IVTFF Eva- 2.0 M 5
+# Synthetic IVTFF fixture for parser tests — covers every construct the
+# parser and tokenizer must handle. Not real Voynich text.
+#
+<f1r>      <! $Q=A $P=A $F=a $B=1 $I=H $L=A $H=1 $C=1>
+# a comment line inside a page
+<f1r.1,@P0>	<%>fachys.ykal.ar<!strange r>.ataiin.shol<$>
+<f1r.2,+P0>	sory,ckhar.or,y.kair<->otaiin
+<f1r.3,+P0>	qo[k:t]eedy.{cth}ey.da@194;in.cho?dy.???
+<f1r.4,+P0>	long.line.that.wraps /
+/ over.two.lines
+<f1r.5,=Pt>	ydaraishy
+<f2v>      <! $Q=A $P=D $I=B $L=B $H=@>
+<f2v.1,@L0>	otol.daiin
+<f2v.2,+P0>	<@H=2>shedy.qokeedy

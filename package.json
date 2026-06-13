@@ -1,0 +1,30 @@
+{
+  "name": "voynich-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "register": "bun run src/ingest/register.ts",
+    "ingest": "bun run src/ingest/ingest.ts",
+    "holdout:freeze": "bun run src/corpus/freeze-holdout.ts",
+    "corpus:report": "bun run src/report/inventory.ts",
+    "signature:report": "bun run src/report/signature.ts",
+    "controls:report": "bun run src/report/controls.ts",
+    "hypotheses:report": "bun run src/report/hypotheses.ts",
+    "diag:selfcitation": "bun run src/report/diag-selfcitation.ts",
+    "diag:zipf": "bun run src/report/diag-zipf.ts",
+    "diag:lexicon": "bun run src/report/diag-lexicon.ts",
+    "diag:lines": "bun run src/report/diag-lines.ts",
+    "robustness:report": "bun run src/report/robustness.ts",
+    "hypotheses:ab": "bun run src/report/hypotheses-ab.ts",
+    "synthesis:report": "bun run src/report/synthesis.ts",
+    "structure:report": "bun run src/report/structure.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.16",
+    "@types/bun": "^1.3.14",
+    "typescript": "^6.0.3"
+  }
+}

@@ -1,0 +1,14 @@
+node_modules/
+
+# Source files are never redistributed (licensing) — provenance lives in data/registry.json
+data/raw/*
+!data/raw/.gitkeep
+
+# The SQLite database is a build artifact, regenerable from data/raw/
+data/db/*
+!data/db/.gitkeep
+.DS_Store
+
+# IDE / editor files
+.idea/
+*.iml

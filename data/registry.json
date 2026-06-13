@@ -1,0 +1,36 @@
+{
+  "files": [
+    {
+      "path": "data/raw/ZL3b-n.txt",
+      "sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+      "url": "http://www.voynich.nu/data/ZL3b-n.txt",
+      "downloadedAt": "2026-06-10T14:00:37.020Z",
+      "license": "Copyright Rene Zandbergen; free for research use per voynich.nu; not redistributed in this repo",
+      "note": "ZL (Zandbergen-Landini) transliteration, IVTFF 2.0, Eva alphabet, version 3b of 13/05/2025"
+    },
+    {
+      "path": "data/raw/vulgate-genesis.html",
+      "sha256": "69eae3e270473a23fba9d749e4dbf8a95bf7c7de71d2f1751473b2aef6a7cc95",
+      "url": "https://www.thelatinlibrary.com/bible/genesis.shtml",
+      "downloadedAt": "2026-06-11T16:52:15.216Z",
+      "license": "Clementine Vulgate text: public domain; The Latin Library hosting: free for personal/educational use, not redistributed here",
+      "note": "Vulgate Genesis (Latin), control corpus T2.1"
+    },
+    {
+      "path": "data/raw/vulgate-exodus.html",
+      "sha256": "76496a06b939a1caa6076983db09355ca44d5194ce75b2d0722ebf0357baf51a",
+      "url": "https://www.thelatinlibrary.com/bible/exodus.shtml",
+      "downloadedAt": "2026-06-11T16:52:15.236Z",
+      "license": "Clementine Vulgate text: public domain; The Latin Library hosting: free for personal/educational use, not redistributed here",
+      "note": "Vulgate Exodus (Latin), control corpus T2.1"
+    },
+    {
+      "path": "data/raw/IT2a-n.txt",
+      "sha256": "7f27a8b0feed8f6de0a99900df6bf912dd1d295c38e5f830bac8b41c3f536fb5",
+      "url": "http://www.voynich.nu/data/IT2a-n.txt",
+      "downloadedAt": "2026-06-11T18:03:08.141Z",
+      "license": "Free for research use per voynich.nu; not redistributed in this repo",
+      "note": "Takahashi transliteration (IT), IVTFF 2.0, basic Eva, for transliteration robustness check"
+    }
+  ]
+}
